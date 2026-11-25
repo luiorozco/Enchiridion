@@ -1,0 +1,86 @@
+# Kept out as insurance: masters and working files belong in the content folder, never here.
+
+# Editable sources
+*.[pP][sS][dD]
+*.[pP][sS][bB]
+*.[aA][iI]
+*.[iI][nN][dD][dD]
+*.[iI][dD][mM][lL]
+*.[aA][fF][dD][eE][sS][iI][gG][nN]
+*.[aA][fF][pP][hH][oO][tT][oO]
+*.[xX][cC][fF]
+*.[sS][kK][eE][tT][cC][hH]
+*.[fF][iI][gG]
+*.[bB][lL][eE][nN][dD]
+*.3[dD][mM]
+*.[dD][wW][gG]
+*.[dD][xX][fF]
+*.[sS][kK][pP]
+*.[gG][hH]
+*.[gG][hH][xX]
+*.[eE][pP][sS]
+
+# Raw and master images
+*.[tT][iI][fF]
+*.[tT][iI][fF][fF]
+*.[hH][eE][iI][cC]
+*.[dD][nN][gG]
+*.[cC][rR]2
+*.[cC][rR]3
+*.[nN][eE][fF]
+*.[aA][rR][wW]
+*.[rR][aA][fF]
+*.[oO][rR][fF]
+*.[rR][wW]2
+*.[rR][aA][wW]
+
+# Video
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[mM]4[vV]
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[wW][eE][bB][mM]
+
+# Documents and archives
+*.[pP][dD][fF]
+*.[dD][oO][cC][xX]
+*.[pP][pP][tT][xX]
+*.[xX][lL][sS][xX]
+*.[kK][eE][yY]
+*.[pP][aA][gG][eE][sS]
+*.[zZ][iI][pP]
+*.[rR][aA][rR]
+*.7[zZ]
+
+# Working folders
+Masters/
+Originals/
+Working/
+Sources/
+Edits/
+
+# Handover/ admits only Markdown and web images; everything else in it stays out.
+Handover/**
+!Handover/**/
+!Handover/**/*.[mM][dD]
+!Handover/**/*.[jJ][pP][gG]
+!Handover/**/*.[jJ][pP][eE][gG]
+!Handover/**/*.[pP][nN][gG]
+!Handover/**/*.[sS][vV][gG]
+
+# Local files
+CLAUDE.local.md
+.claude/settings.local.json
+.env*
+.vscode/
+node_modules/
+
+# Clutter from the system, cloud sync and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+.~lock.*
+~$*
+*~
+*.swp
